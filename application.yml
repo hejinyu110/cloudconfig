@@ -1,0 +1,17 @@
+spring:
+  prlfiles:
+    active: dev
+    
+
+---
+spring:
+  prlfiles: dev
+  application:
+    name: springcloud-config-dev
+    
+    
+---
+spring:
+  prlfiles: test
+  application:
+    name: springcloud-config-test
